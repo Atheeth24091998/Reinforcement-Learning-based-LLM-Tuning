@@ -1,0 +1,1211 @@
+[
+  {
+    "problem": "transfer_rail_y_axis_not_level",
+    "explicit_symptoms": [
+      "bubble_off_center_y_axis",
+      "transfer_rail_tilted"
+    ],
+    "implicit_symptoms": [
+      "transfer_errors",
+      "y_axis_movement_issues",
+      "precision_loss"
+    ],
+    "possible_causes": [
+      "base_machine_not_level",
+      "frame_twist",
+      "incorrect_foot_adjustment"
+    ],
+    "recommended_actions": [
+      "check_bearing_surface_y_axis",
+      "use_water_level",
+      "adjust_mounting_feet"
+    ]
+  },
+  {
+    "problem": "guide_rails_dirty",
+    "explicit_symptoms": [
+      "visible_dirt_accumulation_on_guide_rails",
+      "dust_on_linear_ball_bearing_surfaces",
+      "contamination_visible_on_bearing_surfaces",
+      "grit_particles_in_rail_grooves"
+    ],
+    "implicit_symptoms": [
+      "bearing_surface_friction_increased",
+      "blade_holder_movement_restricted",
+      "wear_on_linear_bearings_accelerating",
+      "positioning_accuracy_degraded",
+      "machine_mechanical_precision_declining"
+    ],
+    "possible_causes": [
+      "insufficient_maintenance_cleaning_schedule",
+      "environmental_dust_ingress",
+      "lack_of_machine_enclosure",
+      "production_environment_contamination",
+      "inadequate_protection_during_operation"
+    ],
+    "recommended_actions": [
+      "visually_inspect_linear_ball_bearings",
+      "clean_bearing_surfaces_of_guides",
+      "lightly_grease_bearing_surfaces",
+      "use_soft_cleaning_cloth_only",
+      "perform_semi_annual_maintenance_per_7.4.19"
+    ]
+  },
+  {
+    "problem": "red_light_blinking",
+    "explicit_symptoms": [
+      "machine_malfunction_indication",
+      "visual_alert"
+    ],
+    "implicit_symptoms": [
+      "error_state",
+      "attention_required",
+      "potential_hardware_issue"
+    ],
+    "possible_causes": [
+      "process_module_error",
+      "feed_jam",
+      "sensor_fault"
+    ],
+    "recommended_actions": [
+      "read_error_message",
+      "clear_malfunction",
+      "restart_process"
+    ]
+  },
+  {
+    "problem": "approval_button_not_enabled",
+    "explicit_symptoms": [
+      "approval_button_does_not_light_up",
+      "machine_does_not_move_in_special_mode"
+    ],
+    "implicit_symptoms": [
+      "setup_process_blocked",
+      "safety_condition_not_met",
+      "forced_safety_cover_opening"
+    ],
+    "possible_causes": [
+      "forced_open_of_safety_cover_during_production",
+      "machine_not_in_special_mode",
+      "start_button_not_pressed_simultaneously"
+    ],
+    "recommended_actions": [
+      "close_safety_cover",
+      "reset_error_condition",
+      "select_correct_operating_mode"
+    ]
+  },
+  {
+    "problem": "flanged_wheels_bent",
+    "explicit_symptoms": [
+      "flanged_wheel_visibly_bent_or_deformed",
+      "wheel_imbalance_evident",
+      "runout_measurement_exceeds_tolerance",
+      "visual_distortion_observable"
+    ],
+    "implicit_symptoms": [
+      "belt_alignment_compromised",
+      "abnormal_wear_on_belt_developing",
+      "vibration_and_noise_increased",
+      "bearing_stress_elevated",
+      "system_instability_occurring"
+    ],
+    "possible_causes": [
+      "impact_damage_during_transport",
+      "mechanical_overload_condition",
+      "manufacturing_defect_in_wheel",
+      "improper_installation_technique",
+      "metal_fatigue_from_operation"
+    ],
+    "recommended_actions": [
+      "replace_flanged_wheels_if_bent",
+      "order_replacement_wheels_from_komax",
+      "verify_new_wheels_balanced_and_flat",
+      "check_belt_alignment_after_replacement",
+      "monitor_for_vibration_changes"
+    ]
+  },
+  {
+    "problem": "safety_cover_z_axis_not_level",
+    "explicit_symptoms": [
+      "bubble_off_center_z_axis",
+      "safety_cover_frame_tilted"
+    ],
+    "implicit_symptoms": [
+      "cover_jamming",
+      "guide_rail_friction",
+      "closure_misalignment"
+    ],
+    "possible_causes": [
+      "base_machine_twist",
+      "incorrect_assembly",
+      "transport_distortion"
+    ],
+    "recommended_actions": [
+      "check_bearing_surface_z_axis",
+      "use_water_level",
+      "verify_frame_alignment"
+    ]
+  },
+  {
+    "problem": "toothed_belt_bulking",
+    "explicit_symptoms": [
+      "toothed_belt_back_bulking",
+      "back_surface_deformation",
+      "material_protrusion_visible",
+      "bulking_pattern_observable"
+    ],
+    "implicit_symptoms": [
+      "belt_grip_potentially_compromised",
+      "eventual_belt_failure_risk",
+      "material_degradation_from_environment",
+      "reduced_belt_lifespan",
+      "process_instability_developing"
+    ],
+    "possible_causes": [
+      "strong_oil_penetration_weakening_material",
+      "environmental_exposure_to_harsh_conditions",
+      "thermal_stress_from_heat_source",
+      "improper_storage_conditions",
+      "age_related_belt_deterioration"
+    ],
+    "recommended_actions": [
+      "protect_belt_from_excessive_oiling",
+      "replace_affected_toothed_belt",
+      "store_replacement_belts_properly",
+      "verify_belt_tension_21010Hz",
+      "monitor_belt_condition_for_degradation"
+    ]
+  },
+  {
+    "problem": "cogging_play_incorrect",
+    "explicit_symptoms": [
+      "cogging_play_out_of_specification",
+      "excessive_backlash_in_gears",
+      "gear_mesh_too_tight_or_loose"
+    ],
+    "implicit_symptoms": [
+      "stripping_unit_inaccuracy",
+      "blade_positioning_error",
+      "process_instability",
+      "accelerated_wear"
+    ],
+    "possible_causes": [
+      "improper_adjustment",
+      "wear_over_time",
+      "component_replacement_without_calibration"
+    ],
+    "recommended_actions": [
+      "adjust_cogging_play_on_stripping_unit",
+      "check_cogging_play_semi_annually",
+      "clean_cogging_and_drive_pinion"
+    ]
+  },
+  {
+    "problem": "machine_immediate_stoppage",
+    "explicit_symptoms": [
+      "machine_halts_abruptly",
+      "load_voltage_drops"
+    ],
+    "implicit_symptoms": [
+      "unfinished_workpieces",
+      "loss_of_synchronization",
+      "reset_required"
+    ],
+    "possible_causes": [
+      "forcing_safety_cover",
+      "emergency_stop",
+      "light_curtain_breach"
+    ],
+    "recommended_actions": [
+      "investigate_cause_of_stop",
+      "clear_hazards",
+      "restart_machine"
+    ]
+  },
+  {
+    "problem": "dowel_pin_not_engaged",
+    "explicit_symptoms": [
+      "dowel_pin_does_not_align_with_guide",
+      "rotary_unit_loose_or_misaligned",
+      "visual_gap_between_mounting_surfaces",
+      "component_cannot_be_fully_seated"
+    ],
+    "implicit_symptoms": [
+      "rotary_unit_cannot_function_properly",
+      "mechanical_load_distribution_uneven",
+      "gearwheel_misalignment_occurring",
+      "bearing_stress_increased",
+      "mechanical_zero_test_will_fail"
+    ],
+    "possible_causes": [
+      "dowel_pin_not_aligned_with_guide_hole",
+      "rotary_unit_installed_at_wrong_angle",
+      "guide_bore_debris_blocking_pin_engagement",
+      "improper_installation_sequence",
+      "dowel_pin_missing_or_damaged"
+    ],
+    "recommended_actions": [
+      "ensure_dowel_pin_engages_into_guide_8.4.6",
+      "verify_gearwheel_engages_with_belt_simultaneously",
+      "remove_rotary_unit_and_try_installation_again",
+      "check_dowel_pin_for_damage_or_deformation",
+      "clean_guide_bore_if_debris_present"
+    ]
+  },
+  {
+    "problem": "blade_holders_not_moving_easily",
+    "explicit_symptoms": [
+      "blade_holders_stuck_or_difficult_to_move",
+      "manual_movement_requires_excessive_force",
+      "blade_holders_bind_together",
+      "resistance_felt_during_blade_holder_actuation"
+    ],
+    "implicit_symptoms": [
+      "cutting_process_may_be_compromised",
+      "blade_pressure_inconsistent",
+      "stripping_quality_degraded",
+      "cutting_unit_efficiency_reduced",
+      "maintenance_difficulty_increased"
+    ],
+    "possible_causes": [
+      "contact_surfaces_dirty_or_contaminated",
+      "guide_rails_need_cleaning",
+      "limit_beams_misaligned",
+      "blade_holder_misalignment",
+      "dirt_accumulation_between_holders"
+    ],
+    "recommended_actions": [
+      "clean_contact_surfaces_and_guide_rails_8.4.2",
+      "verify_smooth_blade_holder_movement",
+      "remove_any_debris_from_assembly",
+      "check_limit_beam_alignment_if_needed",
+      "lubricate_bearing_surfaces_if_required"
+    ]
+  },
+  {
+    "problem": "floor_not_level",
+    "explicit_symptoms": [
+      "machine_tilts",
+      "spirit_level_bubble_off_center",
+      "mounting_feet_unevenly_loaded"
+    ],
+    "implicit_symptoms": [
+      "machine_vibration",
+      "chassis_distortion",
+      "processing_inaccuracy"
+    ],
+    "possible_causes": [
+      "uneven_foundation",
+      "incorrect_mounting_feet_adjustment",
+      "floor_settling"
+    ],
+    "recommended_actions": [
+      "level_base_machine_with_feet",
+      "check_bearing_surfaces_with_level",
+      "ensure_continuous_concrete_base"
+    ]
+  },
+  {
+    "problem": "lvds_cable_collision",
+    "explicit_symptoms": [
+      "lvds_cable_contacts_moving_component",
+      "cable_damage_from_contact_observed",
+      "cable_routing_interferes_with_motion",
+      "potential_cable_pinching_detected"
+    ],
+    "implicit_symptoms": [
+      "cable_internal_conductors_may_be_broken",
+      "intermittent_signal_loss_occurring",
+      "measurement_errors_developing",
+      "future_cable_failure_likely",
+      "system_reliability_compromised"
+    ],
+    "possible_causes": [
+      "cable_routed_incorrectly_during_installation",
+      "cable_loop_too_close_to_mechanical_parts",
+      "cable_support_clamps_missing",
+      "leaf_spring_collision_with_cable",
+      "rotary_unit_motion_exceeds_design_clearance"
+    ],
+    "recommended_actions": [
+      "guide_lvds_cable_in_wide_loop_8.4.8",
+      "ensure_gap_between_lvds_cable_and_leaf_spring",
+      "fasten_cable_with_velcro_strips_at_intervals",
+      "verify_leaf_spring_and_cable_move_without_collision",
+      "test_rotary_motion_hand_after_rerouting"
+    ]
+  },
+  {
+    "problem": "forklift_capacity_insufficient",
+    "explicit_symptoms": [
+      "forklift_tips_forward",
+      "inability_to_lift_machine"
+    ],
+    "implicit_symptoms": [
+      "dropping_risk",
+      "hydraulic_failure",
+      "unsafe_transport"
+    ],
+    "possible_causes": [
+      "capacity_less_than_3000_kg",
+      "underestimated_machine_weight",
+      "wrong_forklift_selection"
+    ],
+    "recommended_actions": [
+      "use_forklift_with_3000_kg_capacity",
+      "verify_lifting_limit",
+      "switch_to_larger_forklift"
+    ]
+  },
+  {
+    "problem": "metal_corroded_by_solvents",
+    "explicit_symptoms": [
+      "visible_corrosion_on_metal_surfaces",
+      "rust_spots_forming",
+      "metal_discoloration_visible",
+      "surface_degradation_observed"
+    ],
+    "implicit_symptoms": [
+      "accelerated_rusting_occurring",
+      "surface_degradation_progressive",
+      "finish_damage_evident",
+      "structural_integrity_compromised",
+      "component_lifespan_shortened"
+    ],
+    "possible_causes": [
+      "harsh_solvents_contain_corrosive_agents",
+      "acid_or_caustic_solvents_used",
+      "metal_protection_removed",
+      "improper_cleaning_material_selected",
+      "incompatible_chemical_used"
+    ],
+    "recommended_actions": [
+      "do_not_use_solvents_which_corrode_metal",
+      "use_all_purpose_cleaner_only",
+      "oil_or_lubricate_corroded_surfaces",
+      "clean_affected_metal_parts",
+      "inspect_for_corrosion_regularly"
+    ]
+  },
+  {
+    "problem": "recesses_not_covered",
+    "explicit_symptoms": [
+      "protective_plates_missing",
+      "open_recesses_visible",
+      "no_protective_covering"
+    ],
+    "implicit_symptoms": [
+      "direct_hazard_exposure",
+      "operator_reach_risk",
+      "accidental_contact_possible",
+      "regulatory_violation"
+    ],
+    "possible_causes": [
+      "forgotten_during_assembly",
+      "plates_removed_for_access",
+      "installation_incomplete"
+    ],
+    "recommended_actions": [
+      "install_protective_plates",
+      "cover_all_recesses",
+      "verify_machine_safety_per_manual"
+    ]
+  },
+  {
+    "problem": "blue_light_blinking",
+    "explicit_symptoms": [
+      "optical_call_up_of_maintenance",
+      "blue_signal_active"
+    ],
+    "implicit_symptoms": [
+      "operator_needs_assistance",
+      "preventive_maintenance_request",
+      "machine_check_needed"
+    ],
+    "possible_causes": [
+      "manual_switch_activation_on_console",
+      "scheduled_maintenance_reminder"
+    ],
+    "recommended_actions": [
+      "respond_to_maintenance_call",
+      "reset_switch_after_service",
+      "perform_maintenance_tasks"
+    ]
+  },
+  {
+    "problem": "transport_gripper_cannot_grip_wire",
+    "explicit_symptoms": [
+      "gripper_jaws_do_not_close",
+      "gripper_fails_to_hold_wire",
+      "wire_slips_during_transfer",
+      "gripper_alignment_off"
+    ],
+    "implicit_symptoms": [
+      "wire_drop_during_loading",
+      "transfer_failure",
+      "process_interruption",
+      "bad_part_generation"
+    ],
+    "possible_causes": [
+      "gripper_jaw_misalignment",
+      "gripper_mechanical_damage",
+      "gripper_not_closed_properly",
+      "blockloader_height_incorrect",
+      "wire_not_at_correct_height"
+    ],
+    "recommended_actions": [
+      "check_transfer_gripper_function",
+      "verify_gripper_jaws_close_fully",
+      "inspect_for_damage_or_obstruction",
+      "adjust_blockloader_height",
+      "verify_wire_axis_height_1170mm"
+    ]
+  },
+  {
+    "problem": "strip_length_difference",
+    "explicit_symptoms": [
+      "measurable_difference_in_strip_lengths",
+      "delta_deviation_exceeding_tolerance",
+      "left_right_measurement_disparity",
+      "recorded_length_variance"
+    ],
+    "implicit_symptoms": [
+      "conductor_exposure_mismatch",
+      "incomplete_insulation_removal_one_side",
+      "assembly_fit_issues_developing",
+      "potential_electrical_problems",
+      "quality_failure_risk"
+    ],
+    "possible_causes": [
+      "blade_holder_not_parallel",
+      "stripping_blade_wear_uneven",
+      "incorrect_delta_offset_value",
+      "mechanical_component_wear",
+      "limit_beam_setting_incorrect"
+    ],
+    "recommended_actions": [
+      "measure_both_strip_lengths_accurately",
+      "calculate_delta_value_difference",
+      "enter_delta_correction_in_software",
+      "set_limit_beams_for_parallel_surface",
+      "rre_measure_relevant_values_after_adjustment"
+    ]
+  },
+  {
+    "problem": "compressed_air_hose_brittle",
+    "explicit_symptoms": [
+      "compressed_air_hose_brittle_to_touch",
+      "loss_of_flexibility_in_hose",
+      "hose_hardening"
+    ],
+    "implicit_symptoms": [
+      "cracking_risk",
+      "air_leak_potential",
+      "module_operation_failure_risk",
+      "pneumatic_system_degradation"
+    ],
+    "possible_causes": [
+      "rotary_motion_wear",
+      "aging_of_material",
+      "environmental_conditions",
+      "uv_exposure"
+    ],
+    "recommended_actions": [
+      "visually_inspect_compressed_air_hose",
+      "replace_worn_or_damaged_hose",
+      "ensure_hose_not_too_short_or_long"
+    ]
+  },
+  {
+    "problem": "toothed_belt_cracks",
+    "explicit_symptoms": [
+      "cracks_on_belt_surface",
+      "visible_surface_deterioration",
+      "belt_showing_age_signs"
+    ],
+    "implicit_symptoms": [
+      "belt_failure_imminent",
+      "process_instability",
+      "positioning_error_risk",
+      "machine_stoppage_risk"
+    ],
+    "possible_causes": [
+      "normal_wear",
+      "aging",
+      "environmental_conditions",
+      "mechanical_stress"
+    ],
+    "recommended_actions": [
+      "visually_inspect_belt_weekly",
+      "replace_worn_toothed_belt",
+      "check_belt_tension",
+      "monitor_belt_condition"
+    ]
+  },
+  {
+    "problem": "shafts_dirty",
+    "explicit_symptoms": [
+      "visible_contamination_on_shafts",
+      "dirt_accumulation_on_shaft_surfaces",
+      "grit_on_guide_shafts"
+    ],
+    "implicit_symptoms": [
+      "increased_friction",
+      "wear_on_bearings",
+      "movement_resistance",
+      "reduced_precision"
+    ],
+    "possible_causes": [
+      "environmental_dust",
+      "lack_of_cleaning",
+      "production_debris",
+      "insufficient_maintenance"
+    ],
+    "recommended_actions": [
+      "clean_shafts",
+      "apply_grease_film_to_shafts",
+      "perform_maintenance_at_1.2_mil_cycles"
+    ]
+  },
+  {
+    "problem": "length_difference_strands_insulation",
+    "explicit_symptoms": [
+      "insulation_longer_or_shorter_than_strands",
+      "uneven_wire_ends"
+    ],
+    "implicit_symptoms": [
+      "insertion_failure",
+      "contact_positioning_error",
+      "visual_inspection_failure"
+    ],
+    "possible_causes": [
+      "loop_formation_effect",
+      "lack_of_trimming_process",
+      "wire_properties"
+    ],
+    "recommended_actions": [
+      "activate_correction_cut_function",
+      "adjust_trimming_parameters",
+      "verify_cut_quality"
+    ]
+  },
+  {
+    "problem": "processing_quality_degraded",
+    "explicit_symptoms": [
+      "inconsistent_wire_dimensions_or_quality",
+      "stripe_length_variations",
+      "positioning_accuracy_reduced",
+      "visible_defects_in_produced_wires"
+    ],
+    "implicit_symptoms": [
+      "process_parameter_drift_occurred",
+      "component_wear_accumulating",
+      "maintenance_intervals_missed",
+      "bad_part_count_increasing"
+    ],
+    "possible_causes": [
+      "maintenance_issue_unresolved_per_archive",
+      "blade_wear_or_misalignment",
+      "insulation_waste_contaminating_guides",
+      "bearing_wear_from_lack_of_lubrication",
+      "mechanical_component_requires_service"
+    ],
+    "recommended_actions": [
+      "perform_full_machine_inspection",
+      "check_maintenance_plan_adherence",
+      "replace_blades_if_necessary",
+      "clean_all_guides_and_rails",
+      "verify_belt_tension_and_alignment"
+    ]
+  },
+  {
+    "problem": "humidity_above_85_percent",
+    "explicit_symptoms": [
+      "humidity_meter_shows_high_value",
+      "damp_air"
+    ],
+    "implicit_symptoms": [
+      "corrosion_of_metal_parts",
+      "electrical_shorts",
+      "swelling_of_manuals"
+    ],
+    "possible_causes": [
+      "humid_climate",
+      "lack_of_ventilation",
+      "water_leaks"
+    ],
+    "recommended_actions": [
+      "dehumidify_air",
+      "improve_ventilation",
+      "ensure_50_to_85_percent_humidity"
+    ]
+  },
+  {
+    "problem": "storage_containers_dirty",
+    "explicit_symptoms": [
+      "storage_container_filled_with_waste",
+      "contamination_inside_containers",
+      "debris_accumulation_in_storage",
+      "visible_dirt_in_collection_areas"
+    ],
+    "implicit_symptoms": [
+      "waste_overflow_risk",
+      "contamination_spillage_hazard",
+      "cleaning_efficiency_reduced",
+      "production_interruption_likely",
+      "environmental_contamination_risk"
+    ],
+    "possible_causes": [
+      "storage_containers_not_emptied_regularly",
+      "inadequate_waste_collection_schedule",
+      "overflowing_waste_containers",
+      "operator_negligence_in_emptying",
+      "insufficient_container_capacity"
+    ],
+    "recommended_actions": [
+      "empty_catch_tank_stripping_unit_daily",
+      "empty_catch_tank_crimp_module_daily",
+      "empty_waste_container_bad_part_unit_daily",
+      "perform_daily_maintenance_per_7.4.2",
+      "ensure_adequate_container_size"
+    ]
+  },
+  {
+    "problem": "collision_risk_guide_tube",
+    "explicit_symptoms": [
+      "guide_tube_not_inserted_to_end_stop",
+      "guide_tube_projects_beyond_support",
+      "visual_clearance_too_small"
+    ],
+    "implicit_symptoms": [
+      "collision_with_moving_parts",
+      "damage_to_guide_tube",
+      "unplanned_machine_stop"
+    ],
+    "possible_causes": [
+      "improper_tube_insertion",
+      "loose_threaded_pin",
+      "wrong_length_guide_tube",
+      "inattention_during_setup"
+    ],
+    "recommended_actions": [
+      "insert_guide_tube_to_end_stop",
+      "tighten_threaded_pin",
+      "visually_check_clearance_around_tubes",
+      "stop_machine_if_collision_occurs"
+    ]
+  },
+  {
+    "problem": "wire_not_at_correct_height",
+    "explicit_symptoms": [
+      "wire_too_high_or_low_for_gripper",
+      "collision_with_guides"
+    ],
+    "implicit_symptoms": [
+      "grip_failure",
+      "bent_wire_tips",
+      "system_misalignment"
+    ],
+    "possible_causes": [
+      "incorrect_wire_draw_in_height",
+      "mounting_feet_adjustment_error",
+      "floor_level_change"
+    ],
+    "recommended_actions": [
+      "check_wire_axis_height_reference",
+      "adjust_mounting_feet",
+      "relevel_base_machine"
+    ]
+  },
+  {
+    "problem": "green_light_blinking",
+    "explicit_symptoms": [
+      "batch_size_reached_indication",
+      "operator_confirmation_request"
+    ],
+    "implicit_symptoms": [
+      "production_interruption",
+      "successful_batch_run",
+      "ready_for_next_step"
+    ],
+    "possible_causes": [
+      "target_count_achieved",
+      "batch_setting_configuration"
+    ],
+    "recommended_actions": [
+      "acknowledge_batch_completion",
+      "perform_logistics_handling",
+      "resume_production"
+    ]
+  },
+  {
+    "problem": "crushing_hazard_at_wire_selector",
+    "explicit_symptoms": [
+      "wire_selector_movement",
+      "moving_mechanical_parts"
+    ],
+    "implicit_symptoms": [
+      "hand_injury",
+      "pinching_risk",
+      "shearing_hazard"
+    ],
+    "possible_causes": [
+      "wire_selection_process",
+      "reaching_into_wire_selector",
+      "machine_operation"
+    ],
+    "recommended_actions": [
+      "keep_hands_away_while_moving",
+      "wait_for_wire_selector_stop",
+      "maintain_safe_distance"
+    ]
+  },
+  {
+    "problem": "one_sided_direct_sunlight",
+    "explicit_symptoms": [
+      "sunlight_hitting_machine_side",
+      "uneven_surface_temperature"
+    ],
+    "implicit_symptoms": [
+      "sensor_malfunction",
+      "thermal_expansion_differences",
+      "plastic_discoloration"
+    ],
+    "possible_causes": [
+      "installation_near_window",
+      "lack_of_blinds",
+      "open_skylights"
+    ],
+    "recommended_actions": [
+      "install_blinds_or_shades",
+      "block_direct_sunlight",
+      "relocate_machine"
+    ]
+  },
+  {
+    "problem": "one_sided_drafts",
+    "explicit_symptoms": [
+      "detectable_air_current",
+      "paper_or_light_items_moving"
+    ],
+    "implicit_symptoms": [
+      "temperature_gradients",
+      "wire_loop_instability",
+      "inconsistent_processing"
+    ],
+    "possible_causes": [
+      "open_doors_or_windows",
+      "hvac_vents_directed_at_machine",
+      "fans"
+    ],
+    "recommended_actions": [
+      "eliminate_drafts",
+      "redirect_air_vents",
+      "close_doors"
+    ]
+  },
+  {
+    "problem": "wire_guide_grommets_not_installed",
+    "explicit_symptoms": [
+      "guide_tubes_exposed_without_grommets",
+      "wire_rubbing_on_bare_tube_threads",
+      "insulation_damage_visible",
+      "grommets_missing_from_cross_beam"
+    ],
+    "implicit_symptoms": [
+      "wire_damage_during_feed",
+      "inconsistent_wire_path",
+      "poor_process_quality",
+      "insulation_stripping_inaccurate"
+    ],
+    "possible_causes": [
+      "assembly_step_skipped",
+      "grommets_not_included_in_kit",
+      "incorrect_component_order",
+      "feed_rack_assembly_incomplete"
+    ],
+    "recommended_actions": [
+      "install_wire_guide_grommets",
+      "ensure_smooth_wire_path",
+      "protect_wire_from_abrasion",
+      "install_grommets_on_first_cross_beam",
+      "route_wires_through_grommets_straight"
+    ]
+  },
+  {
+    "problem": "premature_wear",
+    "explicit_symptoms": [
+      "accelerated_component_surface_degradation",
+      "visible_scratches_or_pitting_on_parts",
+      "bearing_noise_increasing",
+      "movement_resistance_rising"
+    ],
+    "implicit_symptoms": [
+      "maintenance_intervals_need_shortening",
+      "component_replacement_approaching",
+      "system_efficiency_declining",
+      "failure_probability_increasing",
+      "operational_lifespan_reduced"
+    ],
+    "possible_causes": [
+      "insulation_waste_contaminating_guide_rails",
+      "inadequate_lubrication_schedule",
+      "harsh_solvents_used_during_cleaning",
+      "contamination_from_improper_maintenance",
+      "lack_of_regular_cleaning"
+    ],
+    "recommended_actions": [
+      "increase_maintenance_frequency",
+      "clean_all_contaminated_components",
+      "apply_correct_lubricants_per_manual",
+      "use_soft_lint_free_cloths_only",
+      "use_all_purpose_cleaner_not_harsh_solvents"
+    ]
+  },
+  {
+    "problem": "crushing_hazard_at_loop_former",
+    "explicit_symptoms": [
+      "loop_former_movement",
+      "grippers_opening_closing"
+    ],
+    "implicit_symptoms": [
+      "hand_injury",
+      "pinched_fingers",
+      "bone_fracture"
+    ],
+    "possible_causes": [
+      "gripper_activation",
+      "loop_formation_process",
+      "reaching_into_loop_former_area"
+    ],
+    "recommended_actions": [
+      "keep_hands_away",
+      "disconnect_power_before_access",
+      "wait_for_machine_stop"
+    ]
+  },
+  {
+    "problem": "block_not_engaged_in_holder",
+    "explicit_symptoms": [
+      "block_not_seated_in_block_holder",
+      "block_holder_empty_or_incomplete",
+      "block_locking_mechanism_not_engaged"
+    ],
+    "implicit_symptoms": [
+      "block_may_slip_during_loading",
+      "insertion_failures_likely",
+      "bad_part_production_potential",
+      "loading_process_halted_or_unreliable"
+    ],
+    "possible_causes": [
+      "operator_forgot_to_engage_block",
+      "block_seating_procedure_incomplete",
+      "locking_mechanism_damaged_or_worn",
+      "wrong_block_type_for_holder"
+    ],
+    "recommended_actions": [
+      "insert_block_fully_into_block_holder",
+      "verify_block_seat_firmly_in_holder",
+      "engage_locking_mechanism_completely",
+      "press_multi_function_key_to_confirm",
+      "check_block_holder_for_damage_if_resistant"
+    ]
+  },
+  {
+    "problem": "cogging_play_needs_adjustment",
+    "explicit_symptoms": [
+      "cogging_play_out_of_specification",
+      "excessive_backlash_in_cog_rail",
+      "cog_rail_lateral_movement_excessive",
+      "mechanical_play_detected_in_stripping_unit"
+    ],
+    "implicit_symptoms": [
+      "stripping_accuracy_degraded",
+      "blade_position_unstable",
+      "strip_length_inconsistency",
+      "blade_wear_pattern_uneven",
+      "process_quality_variation"
+    ],
+    "possible_causes": [
+      "cog_rail_fasteners_loose",
+      "mechanical_wear_from_operation",
+      "compensating_cylinder_pressure_lost",
+      "spring_tension_wear",
+      "improper_initial_adjustment"
+    ],
+    "recommended_actions": [
+      "release_cylinder_screws_at_cog_rail_top",
+      "slide_cog_rails_positive_negative_y_direction",
+      "re_tighten_cylinder_screws_securely",
+      "check_cogging_play_full_lifting_range",
+      "set_stripping_unit_cogging_play_correctly"
+    ]
+  },
+  {
+    "problem": "slide_rails_damaged",
+    "explicit_symptoms": [
+      "visible_damage_on_slide_rails",
+      "scoring_on_rail_surface",
+      "deformation_of_rails"
+    ],
+    "implicit_symptoms": [
+      "movement_impaired",
+      "positioning_error",
+      "accelerated_bearing_wear",
+      "machine_precision_loss"
+    ],
+    "possible_causes": [
+      "foreign_object_ingestion",
+      "impact_damage",
+      "excessive_load",
+      "lack_of_lubrication"
+    ],
+    "recommended_actions": [
+      "visually_inspect_slide_rails",
+      "replace_damaged_slide_rails",
+      "contact_komax_service",
+      "identify_root_cause"
+    ]
+  },
+  {
+    "problem": "crushing_hazard_at_handover_units",
+    "explicit_symptoms": [
+      "risk_of_crushing_at_handover_units",
+      "handover_mechanism_movement"
+    ],
+    "implicit_symptoms": [
+      "finger_entrapment",
+      "shearing_injury",
+      "pinching_hazard"
+    ],
+    "possible_causes": [
+      "automatic_transfer_cycle",
+      "reaching_between_shuttle_and_handover",
+      "maintenance_without_lockout"
+    ],
+    "recommended_actions": [
+      "keep_hands_away_from_handover_units",
+      "wait_for_complete_stop",
+      "isolate_energy_sources"
+    ]
+  },
+  {
+    "problem": "job_disruption",
+    "explicit_symptoms": [
+      "production_stopped_unexpectedly",
+      "process_error_messages_displayed",
+      "machine_halts_during_cycle",
+      "operator_must_intervene"
+    ],
+    "implicit_symptoms": [
+      "consistency_error_causing_stoppage",
+      "machine_breakdown_developing",
+      "schedule_disruption_imminent",
+      "material_waste_occurring",
+      "operator_frustration_increasing"
+    ],
+    "possible_causes": [
+      "inconsistency_within_machine",
+      "component_misalignment",
+      "servo_fault_triggered",
+      "safety_interlock_activation",
+      "process_parameter_out_of_range"
+    ],
+    "recommended_actions": [
+      "follow_user_interface_indications",
+      "perform_consistency_check_8.3.1",
+      "reset_machine_to_safe_state",
+      "clear_error_conditions",
+      "restart_production_carefully"
+    ]
+  },
+  {
+    "problem": "transfer_grippers_move_unexpectedly",
+    "explicit_symptoms": [
+      "grippers_move_to_home_position_opened_top",
+      "sudden_vertical_movement"
+    ],
+    "implicit_symptoms": [
+      "collision_hazard",
+      "unpredictable_motion",
+      "operator_injury"
+    ],
+    "possible_causes": [
+      "switching_on_load_voltage",
+      "restoring_power",
+      "initialization_routine"
+    ],
+    "recommended_actions": [
+      "stay_clear_during_power_up",
+      "anticipate_gripper_homing",
+      "verify_safe_state"
+    ]
+  },
+  {
+    "problem": "wire_not_gripped_by_shuttle",
+    "explicit_symptoms": [
+      "wire_dropped_in_transfer",
+      "empty_shuttle_movement"
+    ],
+    "implicit_symptoms": [
+      "missing_part_at_next_station",
+      "machine_stop_due_to_error",
+      "wire_accumulation"
+    ],
+    "possible_causes": [
+      "incorrect_wire_draw_in_height",
+      "misaligned_deflector",
+      "gripper_jaw_wear"
+    ],
+    "recommended_actions": [
+      "check_wire_axis_reference_dimension_1170mm",
+      "adjust_deflector_alignment",
+      "inspect_shuttle_grippers"
+    ]
+  },
+  {
+    "problem": "center_of_gravity_off_center",
+    "explicit_symptoms": [
+      "machine_tilts_when_lifting",
+      "handling_symbol_indicates_off_center_gravity"
+    ],
+    "implicit_symptoms": [
+      "instability_during_transport",
+      "risk_of_dropping_machine",
+      "uneven_forklift_load"
+    ],
+    "possible_causes": [
+      "machine_design_mass_distribution",
+      "incorrect_forklift_positioning",
+      "ignoring_center_of_gravity_symbol"
+    ],
+    "recommended_actions": [
+      "position_forks_laterally_adjustable",
+      "lift_machine_off_center",
+      "follow_packaging_indications"
+    ]
+  },
+  {
+    "problem": "machine_rust_corrosion",
+    "explicit_symptoms": [
+      "visible_rust_on_metal_surfaces",
+      "corrosion_spots"
+    ],
+    "implicit_symptoms": [
+      "seized_moving_parts",
+      "pitting",
+      "reduced_accuracy"
+    ],
+    "possible_causes": [
+      "lack_of_corrosion_protection",
+      "opened_packaging_during_storage",
+      "high_humidity"
+    ],
+    "recommended_actions": [
+      "keep_packaging_sealed",
+      "renew_protective_atmosphere",
+      "store_in_dry_conditions"
+    ]
+  },
+  {
+    "problem": "wire_damage_z_axis_incorrect",
+    "explicit_symptoms": [
+      "wire_crimped_or_compressed",
+      "insulation_compression_visible",
+      "conductor_strand_damage_evident",
+      "transfer_height_z_axis_too_low"
+    ],
+    "implicit_symptoms": [
+      "wire_becomes_unusable",
+      "crimp_pull_test_will_fail",
+      "assembly_fit_issues_develop",
+      "bad_part_rejection_certain",
+      "production_accuracy_impacted"
+    ],
+    "possible_causes": [
+      "transfer_height_z_axis_set_incorrectly",
+      "loop_former_height_incorrect",
+      "gripper_height_misaligned",
+      "base_shuttle_gripper_too_low",
+      "incorrect_setup_during_commissioning"
+    ],
+    "recommended_actions": [
+      "reset_height_of_loop_former_8.3.3",
+      "measure_transfer_height_correctly",
+      "ensure_z_axis_set_to_proper_position",
+      "verify_gripper_alignment_with_wire",
+      "perform_test_cycle_before_production"
+    ]
+  },
+  {
+    "problem": "humidity_below_50_percent",
+    "explicit_symptoms": [
+      "humidity_meter_shows_low_value",
+      "dry_air"
+    ],
+    "implicit_symptoms": [
+      "static_electricity_buildup",
+      "wire_sticking",
+      "processing_errors"
+    ],
+    "possible_causes": [
+      "dry_climate",
+      "excessive_heating",
+      "hvac_dehumidification"
+    ],
+    "recommended_actions": [
+      "increase_humidity",
+      "install_humidifier",
+      "ensure_50_to_85_percent_humidity"
+    ]
+  },
+  {
+    "problem": "draw_in_hazard_at_pallet_lift",
+    "explicit_symptoms": [
+      "moving_pallet_lift_device",
+      "draw_in_hazard_from_moving_parts"
+    ],
+    "implicit_symptoms": [
+      "clothing_entanglement",
+      "limb_entrapment",
+      "severe_injury"
+    ],
+    "possible_causes": [
+      "automatic_pallet_movement",
+      "wire_loops_catching_operator",
+      "reaching_into_lift_area"
+    ],
+    "recommended_actions": [
+      "keep_clear_of_pallet_lift",
+      "do_not_reach_into_moving_parts",
+      "monitor_wire_loops"
+    ]
+  },
+  {
+    "problem": "loop_former_gripper_not_free",
+    "explicit_symptoms": [
+      "gripper_movement_restricted",
+      "gripper_stiff",
+      "resistance_when_opening_closing"
+    ],
+    "implicit_symptoms": [
+      "wire_loop_not_formed",
+      "process_interruption",
+      "wire_not_gripped_correctly",
+      "production_stoppage"
+    ],
+    "possible_causes": [
+      "lack_of_lubrication",
+      "dirt_accumulation_in_joint",
+      "mechanical_binding",
+      "wear_and_tear"
+    ],
+    "recommended_actions": [
+      "check_free_movement_weekly",
+      "lubricate_gripper_joint_with_oil",
+      "open_and_close_gripper_several_times",
+      "wipe_off_excess_oil"
+    ]
+  }
+]

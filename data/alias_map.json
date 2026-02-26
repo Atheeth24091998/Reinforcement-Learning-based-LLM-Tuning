@@ -1,0 +1,302 @@
+{
+  "abnormal_wear_on_loaded_tooth_flank": "abnormal_wear_on_tooth_flank",
+
+  "all_drives_inactive": "drives_inactive",
+  "all_pneumatic_actuators_inactive": "pneumatic_actuators_inactive",
+
+  "assembly_fitment_issues": "assembly_fit_issues",
+  "assembly_fitment_problems": "assembly_fit_issues",
+  "assembly_fit_problems": "assembly_fit_issues",
+
+  "assembly_fit_issues_develop": "assembly_fit_issues_developing",
+
+  "bad_part_count_increase": "bad_part_count_increasing",
+
+  "bearing_stress_level_elevated": "bearing_stress_elevated",
+
+  "belt_edge_wear_accelerated": "belt_wear_accelerated",
+  "belt_edgewear_accelerated": "belt_wear_accelerated",
+
+  "belt_replacement_needed_sooner": "belt_replacement_needed_soon",
+  "replacement_needed_soon": "belt_replacement_needed_soon",
+
+  "belt_tension_incorrect_21010Hz": "belt_tension_incorrect_21010_hz",
+
+  "collision_risk_with_moving_parts": "collision_with_moving_parts",
+
+  "component_wear_accelerating": "component_wear_accelerated",
+
+  "control_system_errors": "control_system_error",
+  "control_system_malfunctions": "control_system_malfunction",
+
+  "crimp_pull_test_fails": "crimp_pull_test_failure",
+
+  "crushed_lid_packaging": "crushed_packaging",
+
+  "electrical_component_failure_after_handling": "electronic_component_failure_after_handling",
+
+  "emergency_stop_activation": "emergency_stop_activated",
+  "emergency_stop_active": "emergency_stop_activated",
+
+  "entanglement_with_wire_loops": "entanglement_with_wire",
+
+  "error_message_on_user_interface": "error_messages_on_interface",
+
+  "false_switching_errors_occurring": "switching_errors_occurring",
+
+  "gap_visible_between_limit_beam_and_gage": "visible_gap_between_limit_beam_and_gage",
+
+  "grinding_visible_on_surface": "grinding_marks_visible_on_surface",
+
+  "inconsistent_wire_feed_tension": "inconsistent_feed_tension",
+
+  "incorrect_wire_end_position": "incorrect_wire_position",
+
+  "length_accuracy_degraded": "wire_length_accuracy_degraded",
+
+  "length_accuracy_lost": "length_accuracy_loss",
+
+  "length_measurement_error_occurring": "measurement_error_occurring",
+
+  "liability_issue": "liability_issues",
+
+  "machine_immediate_stoppage": "machine_immediate_stop",
+  "machine_not_operable": "machine_inoperable",
+  "machine_malfunction_indication": "machine_malfunction_indicated",
+
+  "maintenance_cost_increase": "maintenance_cost_increasing",
+  "maintenance_costs_increasing": "maintenance_cost_increasing",
+  "maintenance_cost_rising": "maintenance_cost_increasing",
+  "maintenance_costs_rising": "maintenance_cost_increasing",
+
+  "mechanical_binding_felt_during_rotation": "mechanical_binding_during_rotation",
+
+  "mechanical_imbalance_evident": "mechanical_imbalance_present",
+
+  "mechanical_stress_concentrated_on_belt": "mechanical_stress_concentrated",
+
+  "mechanical_zero_test_will_fail": "mechanical_zero_test_fails",
+  "system_mechanical_zero_test_fails": "mechanical_zero_test_fails",
+
+  "module_operation_failure_risk": "module_operation_failure",
+
+  "no_production_possible": "production_impossible",
+
+  "pinching_points": "pinch_points",
+
+  "pneumatic_cylinders_sluggish": "pneumatic_cylinder_sluggishness",
+
+  "pneumatic_pressure_drops": "pneumatic_pressure_dropping",
+
+  "positioning_errors": "positioning_error",
+
+  "process_accuracy_impacted": "process_accuracy_affected",
+  "processing_accuracy_affected": "process_accuracy_affected",
+
+  "processing_inaccuracy": "process_inaccuracy",
+
+  "processing_quality_degraded": "process_quality_degraded",
+
+  "production_halt": "production_stopped",
+  "production_halted": "production_stopped",
+  "production_halted_unexpectedly": "production_stopped_unexpectedly",
+  "production_stoppage": "production_stopped",
+
+  "quality_control_rejections": "quality_control_rejection",
+
+  "quality_issues": "quality_issue",
+
+  "referencepointsnotatoriginalposition": "reference_points_not_at_original_position",
+
+  "risk_of_draw_in_and_crushing": "risk_of_draw-in_and_crushing",
+
+  "sensor_signals_unreliable": "sensor_signal_unreliable",
+
+  "shuttle_gripper_collision_risk": "shuttle_gripper_collision",
+
+  "toothed_belt_slipping": "toothed_belt_slippage",
+
+  "transfer_errors": "transfer_error",
+
+  "unfinished_workpieces": "unfinished_workpiece",
+
+  "variation_exceeds_0.2%": "variation_exceeds_0_2_percent",
+  "variation_exceeds_0.2_percent": "variation_exceeds_0_2_percent",
+
+  "water_level_bubble_off_center": "water_level_bubble_off_center_x_axis",
+
+  "wire_feed_inconsistency": "wire_feed_inconsistent",
+
+  "wire_positioning_errors": "wire_positioning_error",
+
+  "wire_slip_during_feeding": "wire_slippage_during_feeding",
+
+  "wire_pass_in_tensioner": "wire_slips_in_tensioner",
+
+  "age_related_belt_deterioration": "age_related_deterioration",
+
+  "assembly_error": "assembly_errors",
+
+  "assembly_step_skipped": "assembly_steps_skipped",
+
+  "excess_belt_tension_applied": "excessive_belt_tension_applied",
+
+  "forgotten_during_pc_setup": "forgotten_during_setup",
+
+  "hose_material_degradation": "material_degradation",
+
+  "impact_force_during_transport": "impact_during_transport",
+
+  "improper_belt_storage_conditions": "improper_storage_conditions",
+
+  "improper_cleaning_material_selected": "improper_cleaning_material_used",
+
+  "inadequate_cable_support_structure": "inadequate_support_structure",
+
+  "incomplete_assembly_after_maintenance": "incomplete_reassembly_after_maintenance",
+
+  "incorrect_shaft_orientation_installation": "incorrect_shaft_orientation_installed",
+
+  "installation_incomplete": "obms_installation_incomplete",
+
+  "insulation_waste_contaminating_guide_rails": "insulation_waste_contaminating_guides",
+
+  "main_valve_closed": "manual_valve_closed",
+
+  "maintenance_without_lockout": "maintenance_without_power_lockout",
+
+  "manual_intervention_mode": "manual_intervention",
+
+  "manufacturing_defect_in_original_wheel": "manufacturing_defect_in_original_gear",
+
+  "mechanical_drift_from_vibration": "mechanical_shift_from_vibration",
+
+  "misaligned_deflector": "misaligned_wire_deflector",
+
+  "operator_neglect_in_emptying": "operator_negligence_in_emptying",
+
+  "operator_overadjustment": "operator_over_adjustment",
+
+  "press_springs_not_adjusted_after_change": "press_springs_not_readjusted_after_change",
+
+  "process_module_misalignment": "process_modules_misaligned",
+
+  "seasonal_temperature_change_affecting_belt": "temperature_change_affecting_belt",
+
+  "settling_of_base_machine": "settling_of_machine",
+
+  "spring_tension_wear": "spring_tension_weak",
+
+  "tube_diameter_not_20%_larger_than_wire": "tube_diameter_not_20_percent_larger_than_wire",
+
+  "adjust_mounting_feet": "readjust_mounting_feet",
+
+  "adjust_pressure_until_press_marks_gone": "adjust_pressure_until_stress_marks_gone",
+
+  "apply_all_purpose_cleaner_only": "apply_all_purpose_cleaner",
+
+  "apply_correct_lubricants_per_manual": "apply_correct_lubricant_per_manual",
+
+  "apply_grease_film_to_guide_rail": "apply_grease_film_to_guide_rails",
+  "apply_grease_film_to_spindle": "apply_grease_film_to_spindles",
+
+  "avoid_pointed_and_sharp_tools": "avoid_pointed_or_sharp_tools",
+
+  "check_air_gap_0.4mm": "check_air_gap_0.4_mm",
+
+  "check_connector_pin_condition": "check_connector_condition",
+
+  "recheck_cut_length_after_adjustment": "check_cut_lengths_after_adjustment",
+
+  "check_free_movement_of_grippers": "check_free_movement_of_gripper",
+
+  "check_grounding_connections": "check_ground_connection",
+
+  "check_hose_connections": "check_obms_connection",
+
+  "check_belt_tension_at_21010_hz": "check_belt_tension_21010_hz",
+
+  "check_toothed_belt_tension_210±10Hz": "check_toothed_belt_tension_21010_hz",
+
+  "clean_sensor_carefully": "clean_lens_carefully",
+
+  "clean_linear_axles": "clean_linear_rails",
+
+  "clean_lubricating_nipple": "clean_lubricating_nipples",
+
+  "close_safety_covers": "close_safety_cover",
+
+  "contact_komax_service_technician": "contact_service_technician",
+
+  "decrease_pre_tension_setting": "decrease_belt_tension_setting",
+
+  "ensure_all_feet_equally_loaded": "ensure_feet_equally_loaded",
+
+  "verify_belt_engages_evenly_on_both_gears": "ensure_belt_engages_evenly_on_both_gears",
+
+  "ensure_safety_cover_is_closed": "ensure_safety_cover_closed",
+
+  "follow_lubrication_table_section_7.2.2": "follow_lubrication_plan_section_7.2.2",
+
+  "grease_lubricating_nipple": "grease_lubricating_nipples",
+
+  "inspect_wire_for_press_marks": "inspect_wire_for_stress_marks",
+
+  "reinstall_before_operation": "install_before_operation",
+
+  "relevel_machine": "level_machine",
+
+  "obtain_original_hoses_from_komax": "obtain_original_cables_from_komax",
+
+  "order_original_replacement_hoses_from_komax": "obtain_original_replacement_from_komax",
+  "order_original_replacement_from_komax": "obtain_original_replacement_from_komax",
+
+  "open_and_close_grippers_several_times": "open_and_close_gripper_several_times",
+
+  "order_replacement_from_komax_only": "order_replacement_from_komax",
+
+  "orient_cog_wheels_correctly_per_diagram": "orient_cog_wheels_correctly_per_manual",
+
+  "perform_full_process_module_adjustment_8.3.4": "perform_process_module_readjustment_8.3.4",
+
+  "release_three_screws_on_left_linear_guide": "release_three_screws_on_linear_guide",
+
+  "remove_all_protective_packaging": "remove_protective_packaging",
+
+  "remove_dust_with_industrial_vacuum": "remove_deposits_with_industrial_vacuum",
+  "remove_grit_with_industrial_vacuum": "remove_deposits_with_industrial_vacuum",
+
+  "replace_damaged_toothed_belt_immediately": "replace_damaged_belt_immediately",
+
+  "replace_damaged_cover_components": "replace_damaged_components",
+
+  "replace_damaged_electronic_component_immediately": "replace_damaged_electrical_component_immediately",
+
+  "replace_damaged_slide_rails": "replace_damaged_linear_rails",
+
+  "replace_worn_toothed_belt_section_8.4.7": "replace_sheared_toothed_belt_section_8.4.7",
+
+  "reset_any_error_conditions": "reset_error_condition",
+
+  "route_cables_per_manual_specifications": "route_cable_per_manual_specifications",
+
+  "select_tube_20%_larger_than_insulation": "select_tube_20_percent_larger_than_insulation",
+
+  "set_pressure_6plus_minus0_5bar": "set_pressure_6_plus_minus_0.5_bar",
+
+  "test_motion_in_special_mode": "test_axis_motion_in_special_mode",
+
+  "use_only_soft_lint_free_cloths": "use_soft_lint_free_cloths",
+
+  "verify_belt_tension_21010Hz": "verify_belt_tension_21010_hz",
+  "verify_belt_tension_21010_Hz": "verify_belt_tension_21010_hz",
+  "verify_new_belt_tension_21010_hz": "verify_belt_tension_21010_hz",
+
+  "verify_belt_tension_21010Hz_after_reset": "verify_belt_tension_21010_hz_after_reset",
+
+  "verify_safety_conditions": "verify_safe_conditions",
+
+  "visually_inspect_slide_rails": "visually_inspect_linear_rails",
+
+  "wait_for_home_position_move": "wait_for_home_position"
+}
